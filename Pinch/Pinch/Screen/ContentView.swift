@@ -187,10 +187,7 @@ struct ContentView: View {
                                    
                                 }
                         }
-                        
                         Spacer()
-                           
-                        
                     }//DRAWER
                         .padding(EdgeInsets(top: 16, leading: 8, bottom: 16, trailing: 8))
                         .background(.ultraThinMaterial)

@@ -117,7 +117,7 @@ struct OnBoardingView: View {
                 }//Footer
                 .frame(width: buttonWidth,height: 80,alignment: .center)
                 .padding()
-                .opacity(isAnimating ? 1 : 0)
+                .opacity(isAnimating ? 0 : 1)
                 .offset(y: isAnimating ? 0 : 40)
                 .animation(.easeOut(duration: 1), value: isAnimating)
             } //VStack
